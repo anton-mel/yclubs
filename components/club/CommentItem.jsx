@@ -1,13 +1,13 @@
-import { NativeWindStyleSheet } from 'nativewind';
 
+import { NativeWindStyleSheet } from 'nativewind';
 import { Text, View } from 'react-native';
 
-
 const CommentItem = () => {
+
+    // Native Wind
     NativeWindStyleSheet.setOutput({
         default: "native",
     });
-
     
     return (
         <View className='w-full flex-col rounded-md border-[1px] mt-4 border-gray-100 px-5 py-3.5'>
@@ -19,6 +19,7 @@ const CommentItem = () => {
             </View>
         </View>
     );
+
 }
 
 export default CommentItem;

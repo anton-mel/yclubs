@@ -1,7 +1,7 @@
 import { NativeWindStyleSheet } from 'nativewind';
 
 import { FlatList, Image, Pressable, Text, View} from 'react-native';
-import parseCategories from '../actions/parseCategories';
+import parseCategories from '../../actions/parseCategories';
 import { useRouter } from 'expo-router';
 
 

@@ -10,7 +10,7 @@ import Header from '../../../components/header/Header';
 import Wrapper from '../../../components/Wrapper';
 
 
-const QuestionBlock = () => {   
+const About = () => {   
 
     // Native Wind SetUp
     NativeWindStyleSheet.setOutput({
@@ -25,7 +25,7 @@ const QuestionBlock = () => {
                     <Wrapper>
                         <View className="mb-10 w-full flex items-center">
                             <View className="w-[920px]">
-                                <Text className='text-2xl font-bold mb-10'>Questions & Answers</Text>
+                                <Text className='text-2xl font-bold mb-10'>About</Text>
                                 <View className='gap-y-5'>
                                     <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Text>
                                     <Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Text>
@@ -43,4 +43,4 @@ const QuestionBlock = () => {
 
 }
 
-export default QuestionBlock;
+export default About;

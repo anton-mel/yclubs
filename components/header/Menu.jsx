@@ -1,9 +1,10 @@
-import { NativeWindStyleSheet } from 'nativewind';
 
+import { NativeWindStyleSheet } from 'nativewind';
 import { Pressable, Text, View } from 'react-native';
 
-
 const Menu = ({ navigation }) => {
+
+    // Native Wind
     NativeWindStyleSheet.setOutput({
         default: "native",
     });    
@@ -50,6 +51,7 @@ const Menu = ({ navigation }) => {
         </View>
         </View>
     );
+    
 };
 
 export default Menu;

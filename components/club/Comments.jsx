@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { NativeWindStyleSheet } from 'nativewind';
 
@@ -7,10 +8,10 @@ import CommentItem from './CommentItem';
 const Comments = () => {
     const [text, setText] = useState('');
 
+    // Native Wind
     NativeWindStyleSheet.setOutput({
         default: "native",
     });
-    
 
     return (
         <View className="w-full flex-col">
@@ -59,8 +60,7 @@ const Comments = () => {
             </View>
         </View>
     );
+
 }
 
 export default Comments;
-
-

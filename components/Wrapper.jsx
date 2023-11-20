@@ -1,7 +1,9 @@
+
 import { NativeWindStyleSheet } from 'nativewind';
 import { View } from 'react-native';
 
 const Wrapper = ({ children }) => {
+    // Native Wind
     NativeWindStyleSheet.setOutput({
         default: "native",
     });

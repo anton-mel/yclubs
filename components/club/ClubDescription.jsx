@@ -7,10 +7,11 @@ import Comments from './Comments';
 
 
 const ClubDescription = ({groupData}) => {
+
+    // Native Wind
     NativeWindStyleSheet.setOutput({
         default: "native",
     });
-
     
     return (
         <View className="w-full flex-shrink">
@@ -46,6 +47,7 @@ const ClubDescription = ({groupData}) => {
             <Comments />
         </View>
     );
+    
 }
 
 export default ClubDescription;
